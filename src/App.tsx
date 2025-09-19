@@ -47,7 +47,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={import.meta.env.PROD ? "/karunya-printers" : ""}>
+      <BrowserRouter>
         <AppContent />
       </BrowserRouter>
     </TooltipProvider>
